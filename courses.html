@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="hii">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Ui</title>
+    <link rel="stylesheet" href="/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <body>
+      <div class="sub-header">
+        <div class="navbar">
+          <div class="logo"><img src="/assets/logo1.png" alt="" /></div>
+          <div class="nav-part1" id="navLinks">
+            <div class="close-icon">
+              <i class="bx bx-x" onclick="hidemenu()"></i>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Course</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-icon">
+          <i class="bx bx-menu" onclick="showmenu()"></i>
+        </div>
+        <h1>Our Courses</h1>
+      </div>
+
+      <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row0">
+          <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quod
+              debitis voluptatibus deserunt quisquam libero quasi qui!
+              Doloremque quos fugit quibusdam eum nulla vel impedit nostrum
+              totam magni.
+            </p>
+          </div>
+
+          <div class="course-col">
+            <h3>Degree</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quod
+              debitis voluptatibus deserunt quisquam libero quasi qui!
+              Doloremque quos fugit quibusdam eum nulla vel impedit nostrum
+              totam magni.
+            </p>
+          </div>
+
+          <div class="course-col">
+            <h3>Graduation</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quod
+              debitis voluptatibus deserunt quisquam libero quasi qui!
+              Doloremque quos fugit quibusdam eum nulla vel impedit nostrum
+              totam magni.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="Facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row2">
+          <div class="faci-col">
+            <img loading="lazy" src="/assets/library-869061.jpg" alt="" />
+            <h3>Biggest library</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, quo
+            </p>
+          </div>
+
+          <div class="faci-col">
+            <img loading="lazy" src="/assets/basketball.png" alt="" />
+            <h3>Largest Playground</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, quo
+            </p>
+          </div>
+
+          <div class="faci-col">
+            <img loading="lazy" src="/assets/cafeteria.jpg" alt="" />
+            <h3>Tasty and Healthy Food</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, quo
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="sub-footer">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+          obcaecati quibusdam reprehenderit quam <br />vero vel deserunt
+          corrupti aperiam delectus, totam eligendi culpa laudantium, eius
+          officiis?
+        </p>
+
+        <div class="icons">
+          <i class="bx bxl-facebook-square"></i>
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxl-twitter"></i>
+        </div>
+        <p>Made <i class="bx bxs-heart"></i> by Rohit Paul</p>
+      </footer>
+
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+          navLinks.style.right = "0";
+        }
+        function hidemenu() {
+          navLinks.style.right = "-200vw";
+        }
+      </script>
+    </body>
+  </head>
+</html>

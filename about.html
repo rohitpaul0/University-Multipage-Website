@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="hii">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Ui</title>
+    <link rel="stylesheet" href="/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <body>
+      <div class="sub-header">
+        <div class="navbar">
+          <div class="logo"><img src="/assets/logo1.png" alt="" /></div>
+          <div class="nav-part1" id="navLinks">
+            <div class="close-icon">
+              <i class="bx bx-x" onclick="hidemenu()"></i>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Course</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-icon">
+          <i class="bx bx-menu" onclick="showmenu()"></i>
+        </div>
+        <h1>About Us</h1>
+      </div>
+      <!-- ................about............ -->
+      <section class="about-us">
+        <div class="row">
+          <div class="part">
+            <h1>
+              We are the world's largest <br />
+              univercity
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla,
+              reprehenderit, aut recusandae esse consectetur ipsa repellat
+              aliquam laborum alias nemo dolorum aliquid dolore officia impedit
+              adipisci, maiores sint? Eaque id illo, perferendis veniam, ullam
+              at suscipit optio exercitationem repellat esse perspiciatis
+              officiis accusamus numquam eligendi quas dolorum harum blanditiis
+              cumque non accusantium iusto. Voluptatem, placeat.
+            </p>
+            <a class="about-btn" href="">Explore More </a>
+          </div>
+
+          <div class="part"><img src="/assets/about.jpg" alt="" /></div>
+        </div>
+      </section>
+
+      <footer class="sub-footer">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+          obcaecati quibusdam reprehenderit quam <br />vero vel deserunt
+          corrupti aperiam delectus, totam eligendi culpa laudantium, eius
+          officiis?
+        </p>
+
+        <div class="icons">
+          <i class="bx bxl-facebook-square"></i>
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxl-twitter"></i>
+        </div>
+        <p>Made <i class="bx bxs-heart"></i> by Rohit Paul</p>
+      </footer>
+
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+          navLinks.style.right = "0";
+        }
+        function hidemenu() {
+          navLinks.style.right = "-200vw";
+        }
+      </script>
+    </body>
+  </head>
+</html>
