@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" class="hii">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Ui</title>
+    <link rel="stylesheet" href="/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <body>
+      <div class="sub-header">
+        <div class="navbar">
+          <div class="logo"><img src="/assets/logo1.png" alt="" /></div>
+          <div class="nav-part1" id="navLinks">
+            <div class="close-icon">
+              <i class="bx bx-x" onclick="hidemenu()"></i>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Course</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-icon">
+          <i class="bx bx-menu" onclick="showmenu()"></i>
+        </div>
+        <h1>Contact</h1>
+      </div>
+
+      <section class="location">
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28548.523341910775!2d88.80583733857418!3d26.56622561871446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e387afab568465%3A0x3a2ef89fb09ab97a!2sMaynaguri%2C%20West%20Bengal%20735224!5e0!3m2!1sen!2sin!4v1717077407035!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+
+   <section class="contact-us">
+        
+      <div class="contact-row">
+
+        <div class="contact-col">
+           <div class="hu">
+             <i class="bx bxs-home"></i>
+              <span>
+                <h5>XYZ Road, 3 No Ward</h5>
+                <p>Jalpaguri,West Bangal</p>
+              </span>
+           </div>
+
+            <div class="hu">
+             <i class="bx bxs-phone"></i>
+              <span>
+                <h5>91+ 9873545279</h5>
+                <p>Monday to Saturday, 10am to 6pm </p>
+              </span>
+            </div>
+
+           <div class="hu">
+             <i class="bx bxs-envelope"> </i>
+              <span>
+                <h5>Hello@gmail.com</h5>
+                <p>Email Us Your Quary</p>
+              </span>
+           </div>
+        </div>
+
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Enail"  >
+                <input type="text" placeholder="Enter Your Suject"  >
+                <textarea rows="8" placeholder="Message"></textarea>
+                <button type="submit" class="about-btn">Send Message</button>
+
+              </form>
+
+        </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+      <footer class="sub-footer">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+          obcaecati quibusdam reprehenderit quam <br />vero vel deserunt
+          corrupti aperiam delectus, totam eligendi culpa laudantium, eius
+          officiis?
+        </p>
+
+        <div class="icons">
+          <i class="bx bxl-facebook-square"></i>
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-linkedin-square"> </i>
+        </div>
+        <p>Made <i class="bx bxs-heart"></i> by Rohit Paul</p>
+      </footer>
+
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+          navLinks.style.right = "0";
+        }
+        function hidemenu() {
+          navLinks.style.right = "-200vw";
+        }
+      </script>
+    </body>
+  </head>
+</html>
